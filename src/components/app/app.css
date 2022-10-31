@@ -1,0 +1,108 @@
+* {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 45px;
+  color:rgba(158, 104, 104, 0.632);
+
+}
+
+.info, .clear-btn {
+  font-size: 15px;
+}
+
+.app {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(114, 113, 113, 0.342);
+  padding: 0 10px;
+  height: 45px;
+  font-size: 15px;
+  color:rgba(27, 27, 27, 0.342);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.add-form {
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border: 1px solid rgba(114, 113, 113, 0.342);
+  height: 45px;
+  color:rgba(27, 27, 27, 0.342);
+}
+
+.add-form button {
+  color:rgba(27, 27, 27, 0.342);
+}
+
+.add-form input::placeholder {
+  color:rgba(27, 27, 27, 0.342);
+  font-style: italic;
+}
+
+ul {
+  padding-top: 5px;
+}
+li {
+  display: flex;
+  border: 1px solid rgba(114, 113, 113, 0.342);
+}
+
+.input-form {
+  width: 100%;
+}
+
+.list-item input {
+  margin: 0 8px;
+  width: 25px;
+  height: 25px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+
+.btn {
+  padding: 0 5px;
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+.btn-active {
+  border: 1px solid rgba(114, 113, 113, 0.342);
+
+}
+
+.checked-item {
+  color:rgba(114, 113, 113, 0.342);
+  text-decoration: line-through;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer button {
+  color:rgba(27, 27, 27, 0.342);
+}
+
+.arrow {
+  width: 42px;
+}
