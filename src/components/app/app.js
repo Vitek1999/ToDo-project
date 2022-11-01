@@ -75,7 +75,7 @@ class App extends Component {
 
   render() {
     const {data, filter} = this.state;
-    const done = this.state.data.filter(item => item.checked).length;
+    const done = this.state.data.filter(item => !item.checked).length;
     const visibleData = this.filterPost(data, filter);
 
 
